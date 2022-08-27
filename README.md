@@ -46,15 +46,15 @@ This Problem generally comes under the topic of backtracking which one can study
 
 Initially the Red buttons are shown in order to show the blocked paths but when you press or click on them 
 they will get unblock and their color will change to white which means now they can be used for our available paths 😃. 
-![App Screenshot](https://i.postimg.cc/RC8SPC6d/1.png)
+![App Screenshot](https://i.postimg.cc/RC8SPC6d/1.png | width="400" height="400")
 
 **After you click on the buttons:**
-![App Screenshot](https://i.postimg.cc/XJVxrvKR/2.png)
+![App Screenshot](https://i.postimg.cc/XJVxrvKR/2.png | width="400" height="400")
 
 **Result :**
 It shows the path in green color.  
 
-![App Screenshot](https://i.postimg.cc/7L1mPzz1/3.png)
+![App Screenshot](https://i.postimg.cc/7L1mPzz1/3.png | width="400" height="400")
 
 
 ## Installation
