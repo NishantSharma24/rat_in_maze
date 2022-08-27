@@ -52,7 +52,8 @@ they will get unblock and their color will change to white which means now they 
 ![App Screenshot](https://i.postimg.cc/XJVxrvKR/2.png)
 
 **Result :**
-It shows the path in green color.
+It shows the path in green color.  
+
 ![App Screenshot](https://i.postimg.cc/7L1mPzz1/3.png)
 
 
