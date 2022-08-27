@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rat in Maze
 
-## Available Scripts
+In this problem, there is a given maze of size N x N. 
+The source and the destination location is top-left cell and bottom right cell respectively.
+Some cells are valid to move and some cells are blocked. If one rat starts moving from start vertex to destination vertex, we have to find that is there any way to complete the path, if it is possible then mark the correct path for the rat.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Documentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This Problem generally comes under the topic of backtracking which one can study from various website.
+  
+  
+  There are total 3 React Components used inside this which include :  
+    
+  **1. Index.js:**  
+   ```
+  This component is just the entry point of our website.
+   ```
+   **2. App.js:**  
+   ```
+  This component is used to render the Rat.js component , also includes its css file.
 
-### `npm test`
+   ```  
+  **3. Rat.js:**  
+   ```
+   The component contains the main functioning of the website. There is the PrintPathUtil function which covers all the path that can be possible to reach our target cell.
+   Then we have possible path array that will be converted to a matrix as our final result and the solution.js(React component) is used to render the available paths.
+  
+   ```
+   **4. PrintMatrix.js:**  
+   ```
+   The initial Matrix is constructed using this component and different useState variables are used to work for respective cell. 
+  
+   ```
+   **5. Solution.js:**  
+   ```
+   The Rat.js component calls this component only when we have a direct path to the target cell. The path is colored green according to value present inside the cell. 
+  
+   ```
+    
+   ## 💫💫https://nishantsharma24.github.io/rat_in_maze/ 💫💫##
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+Initially the Red buttons are shown in order to show the blocked paths but when you press or click on them 
+they will get unblock and their color will change to white which means now they can be used for our available paths 😃. 
+![App Screenshot](https://i.postimg.cc/RC8SPC6d/1.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**After you click on the buttons:**
+![App Screenshot](https://i.postimg.cc/XJVxrvKR/2.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Result :**
+It shows the path in green color.
+![App Screenshot](https://i.postimg.cc/7L1mPzz1/3.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Download the Project code inside the master branch of current repository then extract files to your working folder.
+  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install Rat_in_Maze Dependencies with npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm install  
+```
+To run the project on the LocalHost use below command
+```bash
+  npm start
+```
