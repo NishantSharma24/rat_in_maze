@@ -40,7 +40,7 @@ This Problem generally comes under the topic of backtracking which one can study
   
    ```
     
-   ## 💫💫https://nishantsharma24.github.io/rat_in_maze/ 💫💫##
+   ## 💫💫https://nishantsharma24.github.io/rat_in_maze/ 💫💫
 
 ## Screenshots
 
